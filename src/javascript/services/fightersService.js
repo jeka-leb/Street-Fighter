@@ -11,8 +11,7 @@ class FighterService {
       throw error;
     }
   }
-
-  // implemented method responsible for obtaining fighter detail information
+  
   async getFighterDetails(id) {
     try {
       const endpoint = `details/fighter/${id}.json`;

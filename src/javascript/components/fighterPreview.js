@@ -7,7 +7,6 @@ export function createFighterPreview(fighter, position) {
     className: `fighter-preview___root ${positionClassName}`,
   });
 
-  // showed fighter info (image, name, health, etc.)
   if (fighter) {
     const fighterImage = createFighterImage(fighter);
     const fighterData = createElement({
